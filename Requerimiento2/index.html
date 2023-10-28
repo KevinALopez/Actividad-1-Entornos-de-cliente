@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>AE-1. DOM y Formularios Requerimiento 2</title>
+    </head>
+    <body>
+        <form>
+            <label for="">
+                <p>Nombre</p>
+                <input type="text" name="nombre" id="nombre-input" />
+            </label>
+            <label for="">
+                <p>Direccion</p>
+                <input type="text" name="direccion" id="direccion-input" />
+            </label>
+            <label for="">
+                <p>Telefono</p>
+                <input type="text" name="telefono" id="telefono-input" />
+            </label>
+            <label for="">
+                <p>Email</p>
+                <input type="text" name="email" id="email-input" />
+            </label>
+            <div>
+                <p>Elige el tamaño de la pizza :</p>
+                <input
+                    type="radio"
+                    id="grande"
+                    name="tamaño"
+                    value="Grande"
+                /><label for="grande">Grande</label><br />
+                <input
+                    type="radio"
+                    id="mediana"
+                    name="tamaño"
+                    value="Mediana"
+                /><label for="mediana">Mediana</label><br />
+                <input
+                    type="radio"
+                    id="pequeña"
+                    name="tamaño"
+                    value="Pequeña"
+                /><label for="pequeña">Pequeña</label><br />
+            </div>
+            <div>
+                <p>Elige los ingredientes:</p>
+                <input
+                    type="checkbox"
+                    id="salami"
+                    name="ingrediente1"
+                    value="Salami"
+                /><label for="salami">Salami</label><br />
+                <input
+                    type="checkbox"
+                    id="pepperoni"
+                    name="ingrediente2"
+                    value="Pepperoni"
+                /><label for="pepperoni">Pepperoni</label><br />
+                <input
+                    type="checkbox"
+                    id="chile"
+                    name="ingrediente3"
+                    value="Chile"
+                /><label for="chile">Chile</label><br />
+                <input
+                    type="checkbox"
+                    id="piña"
+                    name="ingrediente4"
+                    value="Piña"
+                /><label for="piña">Piña</label><br />
+            </div>
+            <button type="button" id="form-button">Procesar Pedido</button>
+        </form>
+    </body>
+    <script src="index.js"></script>
+</html>
